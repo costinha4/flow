@@ -1,5 +1,5 @@
 package flow;
 
-public interface IApp<T> {
+public interface App<T> {
   T in(IEvent event) throws AppException, EventException, ProtocolException, ActionException;
 }
